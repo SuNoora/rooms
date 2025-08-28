@@ -12,7 +12,7 @@ import java.util.List;
 public interface RoomMapper {
 
     RoomMapper INSTANSE = Mappers.getMapper(RoomMapper.class);
-
+    // test comment
     @Mapping(source = "id", target = "roomId")
     RoomDto roomToRoomDto(Room room);
 
